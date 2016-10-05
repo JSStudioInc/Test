@@ -22,7 +22,7 @@ public class Reci_list_up : MonoBehaviour
     bool material_leak;
     #endregion
     public void item_info_up(ItemRecipeClass _info, List<MaterialClass> _minfo, Sprite goods, Sprite ageimg)
-    {
+    { // ㅇㄴㅇㅁㄴㅇㄴㅁㅇ
         current_req_mat = 0;
         info = _info;
         this.gameObject.SetActive(true);
